@@ -2,29 +2,25 @@
 
 #fib.py for arguments 1 to 10000
 
-
-if [n > 1 and n <= 10000]; then
-	echo fibonacci(int(n))
-	
-fi
-
-n = n + 1
-
-#output to fibs.csv, if already fibs.csv then move file to fibs.csv.bak and create new fibs.csv
-# if backup exists then print error
-
 if [-f fibs.csv.bak]
 then
-	echo "Error- file and back-up file already exist"
+    echo "Error- file and back-up file already exist"
+    exit 1
 
 elif [-f fibs.csv]
 then
-	mv fibs.csv fibs.csv.bak
+    mv fibs.csv fibs.csv.bak
 
 else
-	
-fi
-	
-	 
+    for n in {1..10000}; do
 
+    ./fib.py $n >> fibs.csv
+
+    done
+
+# for the csv file:
+
+# remove new lines in csv file and switch to commas
+# echo a delete character
+echo -n ''#special code to delete ,'' # creates comma
 
