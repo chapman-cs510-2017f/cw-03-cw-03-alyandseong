@@ -2,7 +2,7 @@
 
 **Author(s):** **CHANGEME**
 
-[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-03-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-03-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-03-cw-03-alyandseong.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-03-cw-03-alyandseong)
 
 ## Specification
 
