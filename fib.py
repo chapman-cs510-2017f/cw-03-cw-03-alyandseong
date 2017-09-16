@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+
+"""Use fibonacci function with module import
+    The module reuse the fibonacci function and print the nth fibonacci number
+"""
+   
 from sequences import fibonacci
 
 def main(local_argv):
@@ -6,10 +11,14 @@ def main(local_argv):
     This block of code will run only as a standalone function. If it is loaded
     as a module by another program, this will not run. 
     """
-    n = local_argv[1]
-    result = fibonacci(int(n))
-    print(result[-1])
-    return result[-1]
+    try:
+        n = local_argv[1]
+    except IndexError:
+        print("Enter an argument")
+    else:
+        result = fibonacci(int(n))
+        print(result[-1])
+        return result[-1]
 
 if __name__ == "__main__":
     # This block only executes if the script is run as a standalone

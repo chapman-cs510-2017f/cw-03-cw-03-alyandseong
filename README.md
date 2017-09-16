@@ -1,6 +1,6 @@
 # CS510 CW 3
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Aly and Seong**
 
 [![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-03-cw-03-alyandseong.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-03-cw-03-alyandseong)
 
@@ -28,8 +28,10 @@ Complete the following exercises, saving your solutions in the indicated files. 
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
-
+1. **Writing test functions was very helpful. It is good to know that Travis can test automaticaly when we commit on github.**
+1. **Catching and throwing exceptions were very good practice, because it saves the program from being broken.**
+1. **Reusing the fibonacci function with module import was a good practice. We code less and organize a program more manageable.**
+1. **Using __main__ environment helps the program be more robust, because it encapsulates variables, attributes, method inside the script itself.**
 ## Honor Pledge
 
 I pledge that all the work in this repository is my own with only the following exceptions:
