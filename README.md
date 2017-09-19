@@ -32,6 +32,7 @@ Analyze in this section what you found useful about this assignment in your own 
 1. **Catching and throwing exceptions were very good practice, because it saves the program from being broken.**
 1. **Reusing the fibonacci function with module import was a good practice. We code less and organize a program more manageable.**
 1. **Using __main__ environment helps the program be more robust, because it encapsulates variables, attributes, method inside the script itself.**
+1. **It was useful to be able to move a file to a backup file if the file you would like to create already exists. **
 ## Honor Pledge
 
 I pledge that all the work in this repository is my own with only the following exceptions:
@@ -41,4 +42,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+Aly and Seong
